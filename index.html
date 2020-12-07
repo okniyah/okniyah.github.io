@@ -6,29 +6,57 @@
         
         <style>
             body{ 
-                background-color:rgb(243, 252, 111);
+                background-color:rgb(255, 247, 222);
+               
+                
+                
             }
             h1{
                 color:rgb(25, 207, 189);
+                font-family:serif;
+                
             }
-            
             h2{
-                color:rgb(55, 186, 7);
+                color:rgb(44, 156, 0);
+                font-family:serif;
+            }
+            h3{
+                color:rgb(25, 80, 255);
+                font-family:serif;
+            }
+            p{
+                color:rgb(122, 0, 122);
+                border:3px groove rgb(55, 186, 7);
+                font-family:sans-serif;
+                
+            } 
+            ol{
+               color:rgb(5, 168, 160);
+                
+            }
+            p.para{
+               width:80%; 
+               
+            } 
+            a:link{
+                color:rgb(158, 72, 158);
+                
+            }
+            a:hover{
+               color:yellow;
+               
+            }
+            a:pressed{
+                color:rgb(0, 255, 255);
             }
             #bikes{
                 color:rgb(235, 30, 235);
                 
             }
-            p{
-                border:3px dotted rgb(55, 186, 7);
-            }
-            p.para{
-               width:80%; 
-               float:top;
-            }
             .pic{
                 width:60%;
-                border:solid;
+                border:10px groove rgb(82, 29, 82);
+                margin:20px;
                 
             }
         </style>
@@ -37,22 +65,76 @@
     <body>
     
         <h1>Meet the Netherlands!</h1>
+        <div>
+        <h2>Sections</h2>
+        <ol>
+            <li><a href="#visit">Come Visit</a></li>
+            <li><a href="#history">History</a></li>
+            <li><a href="#culture">Culture</a></li>
+            <li><a href="#government">Government</a></li>
+            <li><a href="#cities">Cities to Visit</a></li>
+            <li><a href="#facts">Quick Facts</a></li>
+        </ol>
+        </div>
+        
          <img class="pic"src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Den_Haag_-_panoramio_-_Nikolai_Karaneschev.jpg/220px-Den_Haag_-_panoramio_-_Nikolai_Karaneschev.jpg" alt="Binnenhof">
-        
-        <h2>Come Visit</h2>
+            <div>
+        <h2 id="visit">Come Visit</h2>
                 <p class="para">Want a <em>vibrant</em> and <em>beautiful</em> place to getaway to? Come visit the Netherlands. While calm and cosy during the day, it transforms to beautiful and bright during the night.</p>
-        <h2>Background</h2>
-        <p class="para">yes</p>
-        <img class="pic" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/KeizersgrachtReguliersgrachtAmsterdam.jpg/270px-KeizersgrachtReguliersgrachtAmsterdam.jpg" alt="Amsterdam nightlife">
+                </div>
+                
+            <div>
+        <h2 id="history">History</h2>
         
-    <h2>Cities to visit</h2>
+        <img class="pic" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Flag_of_the_Netherlands.svg/255px-Flag_of_the_Netherlands.svg.png" alt="Netherlands Flag"><p class="para">In the 16th Century the region was conquered by the Spanish. Luckily, the Dutch revolted and became their own country. Their leader, Willem of Orange, formed the Republic of the United Netherlands in 1851. Over centuries, their power strengthened from growth of military and economy. It also weakened due to war. Especially during the 1900s. They were weakened during WWII. Many Jewish people were abducted from the Netherlands, includinng <a href="https://www.annefrank.org/en/anne-frank/">Anne Frank</a>, a famous little girl who hid in the capital, Amsterdam. Today, the Netherlands is thriving and the people there are living peacefully.</p>
+        <h3>History facts</h3>
+    <ol>
+        <li>The Netherlands was the first country to legalize same-sex marriage.</li>
+        <li>The Dutch national anthem, “Wilhelmus” is the oldest national anthem still in use.</li>
+        <li>The microscope was invented in the Netherlands in the 16th century.</li>
+        <li>The Dutch national flag has one the oldest tricolor flags.</li>
+        <li>Amsterdam is entirely built on wooden poles.</li>
+    </ol>
+                </div>
+            
+            <div>
+        <h2 id="culture">Culture</h2>
+        <span class="dutch-paintings">
+            <img class="pic" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/300px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg" alt="starry night">
+            <img class="pic" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Meisje_met_de_parel.jpg/300px-Meisje_met_de_parel.jpg"
+            alt="girl with the pearl earring">
+            <img class="pic" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Adriaan_de_Lelie_001.jpg/800px-Adriaan_de_Lelie_001.jpg" alt="The Art Gallery of Jan Gildemeester.">
+           
+        </span>
+        
+        <p class="para">The Netherlands is a very diverse country. It is filled with many different languages, religions, and they have a huge art culture. Their main spoken language is Dutch, but their are over 15+ languages that are spoken. Their are so many religions and surprisingly, there are many who are non religious or are atheist. Almost 50% are nonreligous. 23% are Roman Catholic. 15% are Protestant. 12% are other forms of religions. The Netherlands has one of the world's highest atheist population. The Netherlands are very familar with art. Some of the world's most famous pieces were made by Dutch artists. Some artists like Vincent van Gogh, Johannes Vermeer, and Adriaan de Lelie. They have many museums in the Netherlands to showcase their art as well as their architecture. The Netherlands are very culturally diverse. </p> 
+        <h3>More Artists</h3>
+        <ul>
+            <li>Hieronymus Bosch</li>
+            <li>Adriaen Backer</li>
+            <li>Coosje van Bruggen</li>
+        </ul>
+            </div>
+            <div>
+                <h2 class="government">Government</h2>
+                <p class="para">There are many forms of goverment. The Nethetherlands are a constitutional monarchy and a parliamentary democracy. This means they have a king as well as a prime minister. The king of the Netherlands is Willem-Alexander of the Netherlands. The prime minister of the netherlands is Mark Rutte. The king does not have actual political power but he is seen as head of state.<br>
+                    
+                    <br>Visit <a href="https://www.worldatlas.com/articles/what-type-of-government-does-the-netherlands-have.html">World Atlas</a> and <a href="https://www.amsterdam.info/netherlands/political-system/">Amsterdam</a> for more information.
+                </p>
+            </div>
+            <div>
+        <h2 id="cities">Cities to visit</h2>
     <li>Amsterdam</li>
     <li>Rotterdam</li>
     <li>Arnhem</li>
     
-    <p class="para">Amsterdam is the capital of the Netherlands. It's also the capital of the Anne Frank House. Amsterdam, Rotterdam, and Arnhem are filled with things to do. There are so many museums to see and castles to visit. There's a little castle outside of Rotterdam called <strong>Castle Van Rhoon.</strong> There are multiple castles in Arnhem. One of which is called <strong>Doorwerth Castle.</strong></p>
+    <p class="para">Amsterdam is the capital of the Netherlands. It's also the capital of the Anne Frank House. Amsterdam, Rotterdam, and Arnhem are filled with things to do. There are so many museums to see and castles to visit. There's a little castle outside of Rotterdam called <strong>Rhoon Castle.</strong> There are multiple castles in Arnhem. One of which is called <strong>Doorwerth Castle.</strong></p>
+            
     <img class="pic" class="pic" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Doorwerth_Panorama_7.JPG/250px-Doorwerth_Panorama_7.JPG" alt="Doorwerth Castle">
-    <h2>Quick facts</h2>
+        
+         </div>
+            <div>
+        <h2 id="facts">Quick facts</h2>
     <ol>
         <li>Amsterdam is one of the top 5 busiest tourism cities in Europe</li>
         <li class="bikes" >Because there is mostly water surrounding, people take<em id="bikes"> bikes</em> over cars</li>
@@ -60,7 +142,10 @@
         <li>The Netherlands produces the most tulips in the world</li>
         <li>The Netherlands is home to the second largest flower garden in the world</li>
     </ol>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Keukenhof_340.JPG/240px-Keukenhof_340.JPG" alt="Keukenhof flower garden" width="350">
-    
+    <img class="pic"src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Keukenhof_340.JPG/240px-Keukenhof_340.JPG" alt="Keukenhof flower garden">
+        
+            </div>
+    <p class="para">For more on the Netherlands visit 
+    <a href="https://www.government.nl/">here</a>.</p>
     </body>
 </html>
